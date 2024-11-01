@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Your Website</title>
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay loop muted preload="auto" id="bg-video">
+            <source src="assets/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="sidebar" id="sidebar"> 
+        <button class="close-btn" id="close-btn">×</button>
+        <a href="#home"><i class="material-icons">home</i>Home</a>
+        <a href="#games"><i class="material-icons">games</i>Games</a>
+        <a href="#about"><i class="material-icons">info</i>About</a>
+        <a href="#contact"><i class="material-icons">contact_mail</i>Contact</a>
+    </div>
+
+    <button class="menu-btn" id="menu-btn">☰</button>
+    <button class="sound-button" id="sound-toggle">🔇</button>
+
+    <div class="content" id="home">
+        <h1>Scavengers</h1>
+        <p>مضيعة للوقت .</h3>
+        
+        <!-- GIF Section -->
+        <div class="gif-container">
+            <img src="https://media.giphy.com/media/3ohzdZoopZ5e6UMpdS/giphy.gif?cid=ecf05e47363eexlmtyqdmhtq1me5stgmfmr386a2tm1ktlx7&ep=v1_gifs_search&rid=giphy.gif&ct=g" alt="Scavenger Hunt GIF">
+        </div>
+    </div>
+
+    <div class="games-section" id="games">
+        <h2>Just a video Game</h2>
+        <p><strong>Spoiler Alert:</strong> The video contains potential spoilers!</p>
+        <video id="gameVideo" class="game-video" controls>
+            <source src="assets/It's Just A Game.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
