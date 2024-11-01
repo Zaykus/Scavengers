@@ -8,10 +8,11 @@
     <title>Your Website</title>
 </head>
 <body>
-    <iframe id="backgroundVideo" 
-        src="https://www.youtube.com/embed/aUG--f5qZjo?autoplay=1&mute=1&loop=1&controls=0&playlist=aUG--f5qZjo" 
-        frameborder="0" allow="autoplay; loop" allowfullscreen>
-</iframe>
+    <div class="video-background">
+        <video autoplay muted loop id="backgroundVideo">
+            <source src="./assets/video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>        
     </div>
 
     <div class="sidebar" id="sidebar"> 
