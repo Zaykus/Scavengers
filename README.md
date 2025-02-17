@@ -2,6 +2,7 @@
 
 A personal website offering curated games, trading charts, and a personal story. Built with HTML, CSS, and JavaScript.
 
+**note the project is down for now**
 ## Project Structure
 - `assets`: Contains images, videos, and other media files.
 - `css`: Holds styling files.
